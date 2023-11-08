@@ -5,6 +5,10 @@ const FoodTypes = () => {
   return (
     <ul className={styles.foodList}>
       <FoodType img={''} name={'Breakfast'} amount={0}></FoodType>
+      <FoodType img={''} name={'Breakfast'} amount={0}></FoodType>
+      <FoodType img={''} name={'Breakfast'} amount={0}></FoodType>
+      <FoodType img={''} name={'Breakfast'} amount={0}></FoodType>
+      <FoodType img={''} name={'Breakfast'} amount={0}></FoodType>
     </ul>
   )
 }

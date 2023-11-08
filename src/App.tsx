@@ -1,5 +1,7 @@
 import style from './App.module.css'
-import FoodTypes from './components/FoodTyps/FoodTypes'
+import Analyze from './components/Analyze/Analyze'
+import Facts from './components/Facts/Facts'
+import FoodTypes from './components/FoodTypes/FoodTypes'
 import Header from './components/Header/Header'
 import Menu from './components/Menu/Menu'
 
@@ -11,7 +13,11 @@ function App() {
         <main className={style.main}>
           <div className={style.container}>
             <Menu></Menu>
-            <FoodTypes></FoodTypes>
+            <div className={style.food}>
+              <FoodTypes></FoodTypes>
+              <Analyze></Analyze>
+            </div>
+            <Facts></Facts>
           </div>
         </main>
       </div>

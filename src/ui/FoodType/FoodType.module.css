@@ -1,7 +1,7 @@
 .typeBox {
-  width: 150px;
+  width: 170px;
   padding: 10px 9px;
-  height: 130px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
