@@ -1,0 +1,32 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 35px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  transition: box-shadow 0.4s ease-out;
+}
+
+.input {
+  background-color: #2d2d2d;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #525252;
+  text-align: center;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputContainer:hover {
+  box-shadow: 1.5px 1.5px 10px #2d2d2d;
+  cursor: text;
+}

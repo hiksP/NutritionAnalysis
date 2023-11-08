@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  max-height: 7%;
+  margin: 2% 0 3%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.logo {
+  margin: 0 15px 0 0;
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}

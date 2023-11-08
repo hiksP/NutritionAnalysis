@@ -1,0 +1,19 @@
+.default {
+  margin: 0;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #111315;
+  font-family: 'Inter', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}

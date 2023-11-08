@@ -1,0 +1,31 @@
+.typeBox {
+  width: 150px;
+  padding: 10px 9px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #cfdddb;
+  border-radius: 4%;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-color: black;
+}
+
+.amount {
+  text-color: black;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
